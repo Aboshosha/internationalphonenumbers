@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.jumia.exercise.internationalphonenumbers.endpoints.CustomerControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.702 s <<< FAILURE! - in com.jumia.exercise.internationalphonenumbers.endpoints.CustomerControllerTest
+testGetAllCutomers  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customerController' defined in file [D:\Resume\jumia\exec_java\Exercise\IPN\internationalphonenumbers\target\classes\com\jumia\exercise\internationalphonenumbers\controllers\CustomerController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.jumia.exercise.internationalphonenumbers.services.CustomerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.jumia.exercise.internationalphonenumbers.services.CustomerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
